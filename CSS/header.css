@@ -1,0 +1,36 @@
+.header {
+    background-color: rgba(255, 255, 255.0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+}
+
+.navs img {
+    width: 20px;
+    height: 20px;
+}
+
+.navs a {
+    color: #151515;
+    text-transform: capitalize;
+    transition: 0.3s;
+    font-size: 16px;
+    font-size: 900;
+    margin-left: 25px;
+}
+
+.navs a:hover {
+    color: #00aff0;
+}
+
+.main-home {
+    background-image: url(../images/picture1.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}

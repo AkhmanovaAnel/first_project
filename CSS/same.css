@@ -1,0 +1,27 @@
+.container {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    background-color: #00aff0;
+    color: #fff;
+    width: 140px;
+    height: 70x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid #00aff0;
+    font-family: 'Teko';
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: .3s;
+    margin-left: 60%;
+}
+
+.btn:hover {
+    background-color: #008abd;
+    border-color: #008abd;
+}
