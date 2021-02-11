@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    height: 80px;
 }
 
 .logo img {
@@ -28,9 +30,22 @@
     color: #00aff0;
 }
 
-.main-home {
-    background-image: url(../images/picture1.jpg);
-    height: 90vh;
-    background-position: center;
-    background-repeat: no-repeat;
+.navs .nav-link {
+    position: relative;
+}
+
+.navs .nav-link::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -10px;
+    height: 3px;
+    background-color: #00aff0;
+    opacity: 0;
+    transition: .4s;
+}
+
+.navs .nav-link:hover::after {
+    opacity: 1;
 }

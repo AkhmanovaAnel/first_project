@@ -1,0 +1,48 @@
+.main-about {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.about-block {
+    width: 45%;
+    position: relative;
+}
+
+.about-item {
+    width: calc(100% / 2 - 3%);
+    background-color: blue;
+    height: 250px;
+}
+
+.about-bg img{
+    width: 95%;
+    height: fit-content;
+    transition: .5s;
+    display: block;
+    margin-left: auto;
+}
+
+.about-bg::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle at center, #e1e1e1 10%, transparent 22%), #ffffff;
+    background-size: 8px 8px;
+    background-position: 100%;
+    background-repeat: repeat;
+    transition: all .3s ease;
+    z-index: -1;
+    border: none;
+    transform: translate3d(-15px, -15px, 0);
+}
+
+.about-bg:hover img {
+    transform: translate3d(-15px, -15px, 0);
+}
+
+.about-bg:hover::before {
+    transform: none;
+}
