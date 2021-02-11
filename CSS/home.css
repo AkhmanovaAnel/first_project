@@ -1,10 +1,15 @@
 .home-content {
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .main-home {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .home-content h1 {
@@ -12,7 +17,6 @@
     font-size: 100px;
     margin-bottom: 30px;
     letter-spacing: 5px;
-    margin-left: 400px;
 }
 
 .home-content p {
@@ -22,9 +26,9 @@
     margin-bottom: 30px;
     letter-spacing: 1px;
     text-align: center;
-    margin-left: 35%;
 }
 
 .about {
     font-family: 'Teko';
 }
+
